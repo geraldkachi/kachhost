@@ -1,0 +1,175 @@
+.primary-overlay {
+  /* background: rgba(112, 81, 176, 0.7); */
+  /* background: #3575d3; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 9;
+  overflow: hidden;
+}
+.float-flow{
+ position: absolute;
+}
+
+/* #3575d3 */
+.hero{
+  position: relative;
+}
+.float-flow{
+  position: absolute;
+  bottom: -166px;
+  left: 3%;
+}
+
+
+/* .slider .slides{
+  background-color: transparent !important;
+  z-index: 100 !important; 
+} */
+
+/* .slider-cloud{
+  position: absolute;
+} */
+
+/* .slider-cloud {
+  background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.0)) 
+  ,url(../img//cloudy-conifers-creepy-dark-428429.jpg) center/cover no-repeat fixed;
+  position: relative !important;
+  z-index: -1;
+} */
+/* .caption{
+  background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.0)) 
+  ,url(../img//cloudy-conifers-creepy-dark-428429.jpg) center/cover no-repeat fixed;
+  position: absolute;
+   z-index: 300;
+} */
+.section-icons{
+  background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.0)) 
+  ,url(../img//cloudy-conifers-creepy-dark-428429.jpg) center/cover no-repeat fixed;
+  z-index: -1003;
+  position: relative;
+}
+.img1{
+  background-image: url("/img/starry-sky-998641.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center
+}
+
+.main-header {
+  background: url(../img/blue-and-red-galaxy-artwork-1629236.jpg) center/cover fixed;
+  min-height: 100vh;
+  color: #fff;
+
+}
+
+.main-header .showcase {
+  padding-top: 40px;
+}
+
+.main-header-inner {
+  background: url(../img/photo-of-constellation-2832084.jpg) center/cover fixed;
+  min-height: 450px;
+  color: #fff;
+}
+.main-header-inn {
+  background: url(../img/photo-of-mountain-under-starry-night-sky-2670898.jpg) center/cover fixed;
+  min-height: 450px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+/* #d847f1 */
+.active-link {
+  color: #3575d3;
+  font-weight: bold;
+}
+
+.section-developers {
+  position: relative;
+  background: url(../img/night-view-of-sky-920534.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 70vh;
+}
+
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+
+.plan {
+  background: rgba(247, 245, 245, 0.925);
+  padding-bottom: 20px !important;
+}
+.plan__title .amount{
+  color: #3575d3;
+}
+.plan_rec{
+  color: #6a1b9a;
+}
+/* {
+  color: #3575d3;
+} */
+
+.section-podcast a {
+  margin-top: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(23, 46, 255, 0.6);
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.tabs .indicator {
+  background-color: #2196F3 !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+.links{
+  text-align: center;
+}
+.section-about{
+  background-color: rgba(247, 245, 245, 0.925);
+}
+.section-choose-plan{
+  background-color: rgba(226, 224, 224, 0.925);
+}
+.amount{
+  font-weight: 900;
+}
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 500px;
+  }
+  .hmm{
+    font-size: 50px;
+  }
+  .recm{
+    font-size: 2rem;
+  }
+  /* .float-flow{} */
+   
+}
